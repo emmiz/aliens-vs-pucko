@@ -1,0 +1,65 @@
+@charset "latin1";
+/* CSS Document */
+
+/*----------Styling till sidans utseende--------------------------------------------------------------------------------------------------------*/
+
+body{		background:url(../layout/skin.jpg);}
+
+#wrapper{	width:720px;	/*Denna box omsluter alla andra boxar och gör att de blir centrerade på sidan. */
+			margin: 0px auto;}
+
+#header{	width:700px;
+			padding:10px;
+			background-color:#1C1C1C;}
+
+#menu{		width:710px;
+			height:23px;
+			margin:0;
+			padding:5px;
+			background-color:#2E7529;}
+
+#content{	width:700px;
+			padding:10px;
+			min-height:540px;
+			background-color:#1C1C1C;}
+
+/*----------Styling tills sidans innehåll--------------------------------------------------------------------------------------------------------*/
+
+.center{	display:block;		/*Denna klass ser till att rubrikbilden P.U.C.K.O blir centrerad*/
+			margin:auto;}
+
+h1{			font-family:Verdana, Geneva, sans-serif;
+			font-size:1.4em;
+			color:#797979;}
+			
+p{			font-family:Verdana, Geneva, sans-serif;
+			font-size:0.9em;
+			color:#797979;}
+
+form{		font-family:Verdana, Geneva, sans-serif;
+			font-size:0.9em;
+			color:#797979;}
+
+table{		margin: 20px 0; 
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:0.9em;}
+
+td{			padding: 5px;
+			color:#797979;
+			border-color:#FFFFFF;}
+
+th{			padding: 5px;
+			background-color:#E55C01;
+			color:#FFFFFF;
+			border-color:#FFFFFF;}	
+
+td.centered{	vertical-align:middle;
+				text-align:center;}		
+		
+.header{	background-color:#E55C01;}	/*Denna klass bestämmer bakgrunden på rubrikraden i dotnet-tabellerna.*/
+			
+#headfont{	color:#FFFFFF;		/*Denna box bestämmer utseendet på rubriktexten i tabellens kolumner.*/
+			font-weight:bold;}
+
+/*#welcomePanel{	width:500px;
+				background-color:#CC33CC;}*/
